@@ -53,7 +53,7 @@ const Login = () => {
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}
-              className="w-full px-3 py-2 rounded-md  focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-slate-900 outline-none"
+              className="w-full px-3 py-2 rounded-md  focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-white bg-slate-900 outline-none"
             />
             {formik.touched.email && formik.errors.email ? (
               <div className="text-red-500 mt-1">{formik.errors.email}</div>
@@ -71,7 +71,7 @@ const Login = () => {
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.password}
-              className="w-full px-3 py-2  border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-slate-900 "
+              className="w-full px-3 py-2  border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-white bg-slate-900 "
             />
             {formik.touched.password && formik.errors.password ? (
               <div className="text-red-500 mt-1">{formik.errors.password}</div>
