@@ -41,7 +41,7 @@ const Login = () => {
   return (
     <MainLayout>
       <div className="mt-60 flex items-center justify-center">
-        <form onSubmit={formik.handleSubmit} className="w-3/5 ">
+        <form onSubmit={formik.handleSubmit} className="w-96 ">
           <div className="mb-4">
             <label htmlFor="email" className="block text-white mb-2">
               Email

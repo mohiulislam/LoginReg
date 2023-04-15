@@ -45,7 +45,7 @@ const Registration = () => {
   return (
     <MainLayout>
       <div className="mt-40 flex items-center justify-center">
-        <form onSubmit={formik.handleSubmit} className="w-3/5 ">
+        <form onSubmit={formik.handleSubmit} className="w-96 ">
           <div className="mb-4">
             <label htmlFor="name" className="block text-white mb-2">
               Name
